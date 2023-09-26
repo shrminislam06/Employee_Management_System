@@ -1,0 +1,27 @@
+.background{
+
+    height: 80vh;
+    width: 100%;
+    background:Linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.6)),url("../Img/office.jpg");
+    background-size: cover;
+
+}
+.navbar{
+    justify-content: end;
+}
+.button.container.button-body{
+    justify-content: end;
+    text-align: center;
+    background: rebeccapurple;
+}
+.search-container{
+    position: relative;
+}
+.search-result{
+ position:absolute;
+    background: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid green;
+
+}
